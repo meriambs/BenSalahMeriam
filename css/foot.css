@@ -1,0 +1,15 @@
+.social {
+  display: flex;
+  justify-content: flex-start;
+}
+.codewars {
+  height: 31px;
+  margin-left: 13px;
+}
+.github {
+  height: 37px;
+  margin-right: 16px;
+}
+.Link {
+  height: 33px;
+}
