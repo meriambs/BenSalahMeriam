@@ -31,12 +31,12 @@ https://templatemo.com/tm-538-digital-trend
 }
 
 :root {
-  --primary-color: #057a8d;
+  --primary-color: #1d1677;
   --secondary-color: #f1c111;
   --white-color: #ffffff;
   --dark-color: #171819;
   --project-bg: #f0f8ff;
-  --menu-bg: #0c8195;
+  --menu-bg: #58bdcf;
 
   --title-color: #15141a;
   --gray-color: #909090;
@@ -60,7 +60,7 @@ https://templatemo.com/tm-538-digital-trend
 }
 
 body {
-  background: var(--white-color);
+   background: var(--white-color); 
   font-family: var(--base-font-family);
 }
 
@@ -203,7 +203,7 @@ a:focus {
 }
 
 ::selection {
-  background: var(--secondary-color);
+  /* background: ; */
   color: var(--white-color);
 }
 
@@ -224,7 +224,7 @@ a:focus {
   -----------------------------------------*/
 
 .navbar {
-  background: var(--menu-bg);
+  background-color: #1e1842;
   z-index: 2;
   top: 0;
   right: 0;
@@ -351,11 +351,13 @@ a:focus {
 }
 
 .hero-bg {
-  background: linear-gradient(
+background-color: #1e1842;
+  /* background: linear-gradient(
     170deg,
-    var(--primary-color) 64%,
-    var(--white-color) 30%
-  );
+    color:#1e1842,
+    /* var(--primary-color) 64%,
+    var(--white-color) 30% */
+  /* ); */ 
 }
 
 .hero-image {
